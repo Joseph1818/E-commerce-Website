@@ -136,8 +136,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     </div>
     <!-- Banner Ends Here -->
   @include('user.product')
-
-   @include('user.feature')
+  @include('user.feature')
 
 
     <div class="call-to-action">

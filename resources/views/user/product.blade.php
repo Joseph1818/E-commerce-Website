@@ -7,7 +7,7 @@
             <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
           </div>
         </div>
-        <div class="col-md-4">
+        {{-- <div class="col-md-4">
           <div class="product-item">
             <a href="#"><img src="assets/images/product_01.jpg" alt=""></a>
             <div class="down-content">
@@ -96,7 +96,7 @@
               <span>Reviews (16)</span>
             </div>
           </div>
-        </div>
+        </div> --}}
         <div class="col-md-4">
           <div class="product-item">
             <a href="#"><img src="assets/images/product_06.jpg" alt=""></a>

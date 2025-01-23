@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -26,6 +27,8 @@ route::get('/', [HomeController::class, 'index'])->name('user.home');
 
 //Admin
 route::get('/product', [AdminController::class, 'product']);
+route::post('/uploadproduct', [AdminController::class, 'uploadproduct']);
+
 
 //logout
 Route::post('/logout', function (Request $request) {
